@@ -30,6 +30,14 @@ grandes: acima de 1920px
         float: right;
         width: 70%;
     }
+
+    div#formulario > h1{
+        font-size: 1.6em;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -43,14 +51,21 @@ grandes: acima de 1920px
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login div#formulario{
-        float: right;
+        float: left;
         width: 50%;
+    }
 
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1.3em;
     }
 }

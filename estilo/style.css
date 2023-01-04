@@ -30,7 +30,7 @@ section#login{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     background-color: white;
     width: 255px;
     height: 490px;
@@ -38,6 +38,7 @@ section#login{
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
@@ -89,11 +90,11 @@ div.campo > input{
     background-color: #54b8b4;
     font-size: 1em;
     width: calc(100% - 44.5px);
-    transform: translateY(-13px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
     padding: 4px;
+    transform: translateY(-13px);
 }
 
 div.campo > input:focus-within{

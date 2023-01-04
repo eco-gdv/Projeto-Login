@@ -18,6 +18,7 @@ grandes: acima de 1920px
 
     section#login{
         width: 70vw;
+        height: 280px;
     }
 
     section#login > div#imagem{
@@ -48,6 +49,7 @@ grandes: acima de 1920px
 
     section#login{
         width: 990px;
+        height: 300px;
     }
 
     section#login > div#imagem{
